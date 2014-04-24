@@ -9,7 +9,7 @@
 1;
 #X obj 453 251 pix_mix 0;
 #X obj 557 210 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 6100 1;
+-1 -1 0 1;
 #X obj 505 120 openpanel;
 #X msg 504 145 open \$1;
 #X msg 529 176 auto \$1;
@@ -20,7 +20,7 @@
 1;
 #X obj 458 -54 gemhead 2;
 #X obj 455 9 spigot;
-#X obj 495 -28 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+#X obj 495 -28 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
 #X floatatom 479 42 5 0 0 0 - - -;
 #X floatatom 518 42 5 0 0 0 - - -;
@@ -33,7 +33,7 @@
 #X msg 531 303 fill \$1;
 #X obj 500 277 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
-#X obj 457 298 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+#X obj 457 298 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
 #X obj 522 250 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
@@ -96,10 +96,10 @@
 #X obj 499 863 pix_motionblur;
 #X obj 596 849 / 100;
 #X floatatom 607 821 5 0 0 0 - - -;
-#X obj 474 838 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+#X obj 474 838 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
 #X obj 570 933 spigot;
-#X obj 627 894 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+#X obj 627 894 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
 #X obj 478 926 spigot;
 #X obj 464 893 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
@@ -136,7 +136,7 @@
 #X msg 717 71 create;
 #X msg 776 97 destroy;
 #X msg 775 124 reset;
-#X obj 658 75 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+#X obj 658 75 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
 #X msg 727 39 dimen 1280 750;
 #X obj 333 865 translateXYZ 0 0 0;
@@ -156,17 +156,17 @@
 #X floatatom 349 275 5 0 0 0 - - -;
 #X floatatom 622 154 5 0 0 0 - - -;
 #X obj 1008 -15 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1
-1 1;
+0 1;
 #X obj 1009 33 f;
 #X obj 1084 -12 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1
-1 1;
+0 1;
 #X obj 1085 36 f;
 #X obj 1085 9 metro 50;
 #X obj 1160 -16 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1
-1 1;
+0 1;
 #X obj 1161 32 f;
 #X obj 1161 5 metro 50;
-#X obj 330 12 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+#X obj 330 12 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
 #X obj 331 60 f;
 #X obj 309 162 0;
@@ -217,7 +217,7 @@
 #X obj 606 242 +;
 #X msg 616 272 1.6;
 #X msg 664 232 107;
-#X obj 951 238 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+#X obj 951 238 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
 #X obj 952 286 f;
 #X obj 876 319 0;
